@@ -81,9 +81,14 @@ section {
     background-color: transparent;
 }
 
+#proyectos{
+    padding: 2rem;
+}
 
 /*BOTON DE PROYECTOS*/
-
+#Planes{
+    padding: 2rem;
+}
 /* Clase oculta para ocultar detalles inicialmente */
 
 /* Ocultar detalles inicialmente y configurar la animación */
