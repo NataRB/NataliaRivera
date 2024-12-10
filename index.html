@@ -11,7 +11,7 @@
 </head>
 
 <body class="bg-dark text-white gradient">
-    <a class="boton-flotante" href="#">
+    <a class="boton-flotante" href="https://wa.me/3166001754">
         <div class="whatsapp-container">
             <img src="./img/whatsapp(2).png" alt="atencion" class="whatsapp-icon">
         </div>
@@ -20,18 +20,40 @@
         ¡Contáctame para más información!
     </div>
     <header class="fixed top-0 left-0 right-0 z-10 bg-dark bg-opacity-90">
-        <nav class="container mx-auto py-4">
-            <div class="flex flex-col sm:flex-row justify-between items-center">
-                <h1 class="text-2xl font-bold mb-4 sm:mb-0">Natalia Rivera</h1>
-                <div class="flex flex-wrap justify-center space-x-2 sm:space-x-4">
-                    <a href="#sobre-mi" class="hover:bg-secondary transition-colors py-2 px-4 rounded">Sobre mí</a>
-                    <a href="#tecnologias"
-                        class="hover:bg-secondary transition-colors py-2 px-4 rounded">Tecnologías</a>
-                    <a href="#proyectos" class="hover:bg-secondary transition-colors py-2 px-4 rounded">Proyectos</a>
-                    <a href="#Planes" class="hover:bg-secondary transition-colors py-2 px-4 rounded">Planes</a>
+        <nav class="bg-gray-900/80 backdrop-blur-sm fixed w-full z-20 top-0 start-0">
+            <div class="container mx-auto p-4">
+              <div class="flex items-center justify-between">
+                <!-- Logo/Name -->
+                <a href="#" class="text-white text-2xl font-bold">Natalia Rivera</a>
+          
+                <!-- Mobile menu button -->
+                <button id="menu-toggle" class="lg:hidden text-white hover:text-gray-300" aria-label="Menu">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+                </button>
+          
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex space-x-8">
+                  <a href="#sobre-mi" class="text-white hover:text-gray-300 transition-colors">Sobre mí</a>
+                  <a href="#tecnologias" class="text-white hover:text-gray-300 transition-colors">Tecnologías</a>
+                  <a href="#proyectos" class="text-white hover:text-gray-300 transition-colors">Proyectos</a>
+                  <a href="#planes" class="text-white hover:text-gray-300 transition-colors">Planes</a>
                 </div>
+              </div>
+          
+              <!-- Mobile Navigation -->
+              <div id="mobile-menu" class="hidden lg:hidden w-full">
+                <div class="flex flex-col space-y-4 mt-4 pb-4">
+                  <a href="#sobre-mi" class="text-white hover:text-gray-300 transition-colors">Sobre mí</a>
+                  <a href="#tecnologias" class="text-white hover:text-gray-300 transition-colors">Tecnologías</a>
+                  <a href="#proyectos" class="text-white hover:text-gray-300 transition-colors">Proyectos</a>
+                  <a href="#planes" class="text-white hover:text-gray-300 transition-colors">Planes</a>
+                </div>
+              </div>
             </div>
-        </nav>
+          </nav>
+        
     </header>
 
     <main class="pt-24">
@@ -481,6 +503,7 @@
 
 
     </script>
+    <script src="./js/movile.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/texto.js"></script>
 </body>
