@@ -1,25 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Oswald", sans-serif;
 }
 
 
-/* Animación de escritura */
-@keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  
-  #typed-text::after {
-    content: "|";
-    animation: blink 0.7s infinite;
-  }
-   
+body {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*BOTON FLOTANTE*/
 
 .boton-flotante {
     position: fixed;
@@ -27,31 +20,31 @@
     right: 20px;
     text-decoration: none;
     z-index: 100;
-  }
-  
-  .whatsapp-container {
+}
+
+.whatsapp-container {
     display: flex;
     background: transparent;
     padding: 10px;
     border-radius: 50px;
     color: white;
-  }
-  
-  .mensaje-bienvenida {
+}
+
+.mensaje-bienvenida {
     margin-right: 10px;
     font-size: 16px;
-  }
-  
-  .whatsapp-icon {
+}
+
+.whatsapp-icon {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-  }
-  
-  /* Mensaje emergente */
-  .mensaje-emergente {
+}
+
+/* Mensaje emergente */
+.mensaje-emergente {
     position: fixed;
-    bottom: 100px; /* Ajusta esta distancia para colocar el mensaje cerca del botón */
+    bottom: 100px;
+    /* Ajusta esta distancia para colocar el mensaje cerca del botón */
     right: 20px;
     background-color: #25D366;
     color: white;
@@ -61,216 +54,89 @@
     opacity: 0;
     transition: opacity 0.5s;
     z-index: 101;
-  }
-  
-
-
-@keyframes gradient-animation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-/* Asegúrate de que todas las secciones tengan un fondo transparente */
-section {
-    background-color: transparent;
-}
-
-#proyectos{
-    padding: 2rem;
-}
-
-/*BOTON DE PROYECTOS*/
-#Planes{
-    padding: 2rem;
-}
-/* Clase oculta para ocultar detalles inicialmente */
-
-/* Ocultar detalles inicialmente y configurar la animación */
-.details {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-out, padding 0.4s ease-out;
-}
-
-.details.show {
-    max-height: 200px; /* Ajusta la altura máxima para el despliegue */
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 
-/* From Uiverse.io by cssbuttons-io */ 
-.fancy {
-    background-color: transparent;
-    border: 2px solid #000;
-    border-radius: 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 1.25em 2em;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    transition: all 0.3s ease-in-out;
-    user-select: none;
-    font-size: 13px;
-   }
-   
-   .fancy::before {
-    content: " ";
-    width: 1.5625rem;
-    height: 2px;
-    background: black;
-    top: 50%;
-    left: 1.5em;
-    position: absolute;
-    transform: translateY(-50%);
-    transform-origin: center;
-    transition: background 0.3s linear, width 0.3s linear;
-   }
-   
-   .fancy .text {
-    font-size: 1.125em;
-    line-height: 1.33333em;
-    padding-left: 2em;
-    display: block;
-    text-align: left;
-    transition: all 0.3s ease-in-out;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-   }
-   
-   .fancy .top-key {
-    height: 2px;
-    width: 1.5625rem;
-    top: -2px;
-    left: 0.625rem;
-    position: absolute;
-    background: #e8e8e8;
-    transition: width 0.5s ease-out, left 0.3s ease-out;
-   }
-   
-   .fancy .bottom-key-1 {
-    height: 2px;
-    width: 1.5625rem;
-    right: 1.875rem;
-    bottom: -2px;
-    position: absolute;
-    background: #e8e8e8;
-    transition: width 0.5s ease-out, right 0.3s ease-out;
-   }
-   
-   .fancy .bottom-key-2 {
-    height: 2px;
-    width: 0.625rem;
-    right: 0.625rem;
-    bottom: -2px;
-    position: absolute;
-    background: #e8e8e8;
-    transition: width 0.5s ease-out, right 0.3s ease-out;
-   }
-   
-   .fancy:hover {
-    color: white;
-    background: black;
-   }
-   
-   .fancy:hover::before {
-    width: 0.9375rem;
-    background: white;
-   }
-   
-   .fancy:hover .text {
-    color: white;
-    padding-left: 1.5em;
-   }
-   
-   .fancy:hover .top-key {
-    left: -2px;
-    width: 0px;
-   }
-   
-   .fancy:hover .bottom-key-1,
-    .fancy:hover .bottom-key-2 {
-    right: 0;
-    width: 0;
-   }
-
-   @keyframes fadeIn {
+@keyframes fadeIn {
     from {
         opacity: 0;
+        transform: translateY(20px);
     }
-
     to {
         opacity: 1;
+        transform: translateY(0);
     }
+}
+
+.tech-stack span {
+    background: rgba(139, 92, 246, 0.1);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    backdrop-filter: blur(4px);
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #8b5cf6;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+
+.highlight {
+    color: #a78bfa;
+}
+
+.tech {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.rounded-bg {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 2rem;
 }
 
 .fade-in {
-    animation: fadeIn 0.5s ease-in-out;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 1.2s ease-out forwards;
 }
 
-
-#sobre-mi {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    padding: 2rem;
-}
-
-#imagen {
-    margin-top: 2rem;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-}
-
-#avatar {
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-}
-
-
-
-@media (min-width: 768px) {
-    #sobre-mi {
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: justify;
-    }
-
-    #imagen {
-        width: 40%;
-    }
-
-    .container {
-        max-width: 1200px;
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
-
-@media (max-width: 768px) {
-    .card-container {
-        flex-direction: column;
-    }
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s;
 }
 
+.card:hover {
+    transform: translateY(-10px);
+}
+
+#contact {
+    margin: 2rem;
+}
+
+  

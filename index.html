@@ -4,513 +4,510 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Natalia Rivera</title>
+    <title>Portafolio - Natalia Rivera</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./img/norte.png" type="image/x-icon">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="./js/script.js"></script>
 </head>
 
-<body class="bg-dark text-white gradient">
-    <a class="boton-flotante" href="https://wa.me/3166001754">
+<body>
+    <a class="boton-flotante" href="#">
         <div class="whatsapp-container">
-            <img src="./img/chat-telefonico.gif" alt="atencion" class="whatsapp-icon">
+          <img src="./img/whatsapp(1).png" alt="atencion" class="whatsapp-icon">
         </div>
-    </a>
-    <div id="mensaje-emergente" class="mensaje-emergente">
-        ¡Contáctame para más información!
-    </div>
-    <header class="fixed top-0 left-0 right-0 z-10 bg-dark bg-opacity-90">
-        <nav class="bg-gray-900/80 backdrop-blur-sm fixed w-full z-20 top-0 start-0">
-            <div class="container mx-auto p-4">
-              <div class="flex items-center justify-between">
-                <!-- Logo/Name -->
-                <a href="#" class="text-white text-2xl font-bold">Natalia Rivera</a>
-          
-                <!-- Mobile menu button -->
-                <button id="menu-toggle" class="lg:hidden text-white hover:text-gray-300" aria-label="Menu">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                  </svg>
-                </button>
-          
-                <!-- Desktop Navigation -->
-                <div class="hidden lg:flex space-x-8">
-                  <a href="#sobre-mi" class="text-white hover:text-purple-500 transition-colors">Sobre mí</a>
-                  <a href="#tecnologias" class="text-white hover:text-purple-500 transition-colors">Tecnologías</a>
-                  <a href="#proyectos" class="text-white hover:text-purple-500 transition-colors">Proyectos</a>
-                  <a href="#Planes" class="text-white hover:text-purple-500 transition-colors">Planes</a>
-                </div>
-              </div>
-          
-              <!-- Mobile Navigation -->
-              <div id="mobile-menu" class="hidden lg:hidden w-full">
-                <div class="flex flex-col space-y-4 mt-4 pb-4">
-                  <a href="#sobre-mi" class="text-white hover:text-purple-500 transition-colors">Sobre mí</a>
-                  <a href="#tecnologias" class="text-white hover:text-purple-500 transition-colors">Tecnologías</a>
-                  <a href="#proyectos" class="text-white hover:text-purple-500 transition-colors">Proyectos</a>
-                  <a href="#Planes" class="text-white hover:text-purple-500 transition-colors">Planes</a>
-                </div>
-              </div>
+      </a>
+      <div id="mensaje-emergente" class="mensaje-emergente">
+        ¡Bienvenidos,
+        escríbeme!
+      </div>
+    <header class="p-6">
+        <nav class="max-w-7xl mx-auto relative">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold">Natalia Rivera</h1>
+
+                <!-- Navegación desktop -->
+                <ul class="hidden md:flex space-x-8">
+                    <li><a href="#sobremi" class="nav-link"><strong>Sobre Mí</strong></a></li>
+                    <li><a href="#servicios" class="nav-link"><strong>Servicios</strong></a></li>
+                    <li><a href="#portafolio" class="nav-link"><strong>Portafolio</strong></a></li>
+                    <li><a href="#contact" class="nav-link"><strong>Contacto</strong></a></li>
+                </ul>
             </div>
-          </nav>
-        
+        </nav>
     </header>
 
-    <main class="pt-24">
-        <section class="py-20">
-            <div class="container mx-auto text-center">
-                <h2 class="text-5xl font-bold mb-4" id="typed-text"></h2>
-                <br>
-                <p class="text-xl text-white mb-8">Desarrolladora Web</p>
-                <br><br>
-                <a href="#proyectos" class="fancy">
-                    <span class="top-key"></span>
-                    <span class="text">¿Quieres ver mis proyectos?</span>
-                    <span class="bottom-key-1"></span>
-                    <span class="bottom-key-2"></span>
-                </a>
-            </div>
-        </section>
-        <br><br><br>
-        <h3 class="text-3xl font-semibold text-center text-white py-10">Sobre Mí</h3>
-        <section id="sobre-mi" class="">
-            <div class="container">
-                <div class="rounded-lg p-6">
-                    <p class="text-lg mb-4">
-                        ¡Hola! Soy Natalia Rivera, una apasionada desarrolladora web con una misión: ayudarte a destacar en el mundo digital. 
-                        Combino diseño atractivo con funcionalidad impecable para crear sitios web que no solo se ven bien, ¡sino que también funcionan a la perfección! 🚀
-                    </p>
-                    <p class="text-lg mb-4">
-                        Con experiencia en <strong>HTML5, CSS3, JavaScript, PHP, MySql, Tailwind CSS, Bootstrap</strong> y <strong>Git</strong>, ofrezco soluciones personalizadas adaptadas a las necesidades de tu negocio. 
-                        Ya sea que necesites un sitio web desde cero o mejorar el que ya tienes, ¡estoy aquí para hacerlo realidad!
-                    </p>
-                    <h3 class="text-xl font-bold mb-3">🌟 ¿Qué puedo hacer por ti?</h3>
-                    <ul class="list-disc pl-5 text-lg mb-4">
-                        <li>Diseñar páginas web <strong>responsivas y modernas</strong> que impresionen en cualquier dispositivo.</li>
-                        <li>Crear interfaces visualmente impactantes que conecten con tus clientes.</li>
-                        <li>Integrar formularios funcionales y características interactivas que potencien la experiencia del usuario.</li>
-                        <li>Optimizar la velocidad y el rendimiento de tu sitio web.</li>
-                        <li>Trabajar contigo en cada detalle para garantizar un resultado excepcional.</li>
-                    </ul>
-                    <h3 class="text-xl font-bold mb-3">🎯 ¿Por qué elegirme?</h3>
-                    <ul class="list-disc pl-5 text-lg mb-4">
-                        <li>✅ <strong>Resultados que destacan:</strong> No solo diseño, creo soluciones digitales que generan impacto.</li>
-                        <li>✅ <strong>Compromiso total:</strong> Cada proyecto es una prioridad, y siempre estoy enfocada en superar tus expectativas.</li>
-                        <li>✅ <strong>Comunicación clara y constante:</strong> Estoy contigo en cada paso del proceso.</li>
-                    </ul>
-                    <p class="text-lg">
-                        Tu éxito es mi mayor motivación. <strong>¡Hablemos y hagamos de tu próximo proyecto web una obra maestra! 🌐💻</strong>
-                    </p>
+    <!-- Sección Hero -->
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <div class="grid md:grid-cols-2 gap-12 items-center min-h-[calc(100vh-5rem)]">
+            <div class="space-y-6 fade-in">
+                <p class="text-purple-400">Lista para innovar</p>
+                <h2 class="text-5xl md:text-6xl font-bold leading-tight">
+                    Frontend
+                    <span class="block text-purple-400">Developer</span>
+                </h2>
+                <p class="text-gray-400 text-lg max-w-md">
+                    Creando sitios web innovadores, funcionales y fáciles de usar para soluciones digitales.
+                </p>
+
+                <!-- Tech Stack -->
+                <div class="tech-stack flex flex-wrap gap-4">
+                    <span class="px-4 py-2 rounded-full text-sm">Bootstrap</span>
+                    <span class="px-4 py-2 rounded-full text-sm">JavaScript</span>
+                    <span class="px-4 py-2 rounded-full text-sm">Sass</span>
+                    <span class="px-4 py-2 rounded-full text-sm">Tailwind</span>
+                </div>
+
+                <!-- Botones CTA -->
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="#proyectos"
+                        class="px-6 py-3 bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors">
+                        Proyectos
+                    </a>
+                    <a href="#contact"
+                        class="px-6 py-3 border border-purple-600 rounded-lg hover:bg-purple-600 transition-colors">
+                        Contacto
+                    </a>
+                </div>
+
+                <!-- Social Links -->
+                <div class="flex gap-6 pt-8">
+                    <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
                 </div>
             </div>
-        </section>
-        
 
-        <section id="tecnologias" class="py-10">
-            <div class="container mx-auto px-4">
-                <br>
-                <div class="relative overflow-hidden">
-                    <div id="tech-slider" class="bg-transparent flex transition-transform duration-[50ms] ease-linear">
-                        <!-- Las imágenes se repetirán dos veces para crear un efecto continuo -->
-                    </div>
-                </div>
+            <!-- Ilustración -->
+            <!-- Ilustración -->
+            <div class="hidden md:block fade-in">
+                <img src="img/codificacion-web.png" alt="Developer Illustration" class="h-auto mix-blend-exclusion"
+                    id="imagen">
             </div>
-        </section>
-
-        <section id="proyectos" class="py-20 p-2">
-            <div class="container mx-auto">
-                <h3 class="text-3xl font-semibold mb-8 text-center">Proyectos Destacados</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Proyecto 1 -->
-                    <div class="bg-dark rounded-lg overflow-hidden shadow-lg">
-                        <video autoplay loop muted class="w-full h-48 object-cover">
-                            <source src="./video/WhatsApp Video 2024-11-30 at 11.04.43 AM.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de videos.
-                        </video>
-                        <div class="p-4">
-                            <h4 class="text-xl font-semibold mb-2">JobMain</h4>
-                            <p class="text-primary mb-4">Desarrollo de un sitio web de contratación freelance con las siguientes características:</p>
-                            <ul class="list-disc list-inside text-primary">
-                                <li>Diseño responsivo, adaptable a cualquier dispositivo.</li>
-                                <li>Animaciones interactivas para una experiencia dinámica.</li>
-                                <li>Paleta de colores moderna y profesional.</li>
-                                <li>Modo noche para mayor comodidad visual.</li>
-                                <li>Interfaz amigable centrada en el usuario.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <!-- Proyecto 2 -->
-                    <div class="bg-dark rounded-lg overflow-hidden shadow-lg">
-                        <video autoplay loop muted class="w-full h-48 object-cover">
-                            <source src="./video/2024-12-09 11-15-21.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de videos.
-                        </video>
-                        <div class="p-4">
-                            <h4 class="text-xl font-semibold mb-2">Flavor Rush</h4>
-                            <p class="text-primary mb-4">Página web de comidas rapidas con integración de e-commerce conectado con Whatsapp</p>
-                            <ul class="list-disc list-inside text-primary">
-                                <li>Diseño responsivo, adaptable a cualquier dispositivo.</li>
-                                <li>Animaciones interactivas para una experiencia dinámica.</li>
-                                <li>Paleta de colores adpatada a comidas rápidas.</li>
-                                <li>Pedido de comidas conectado con Whatsapp.</li>
-                                <li>Iconos y redes sociales interactivas.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Proyecto 3 -->
-                    <div class="bg-dark rounded-lg overflow-hidden shadow-lg">
-                        <video autoplay loop muted class="w-full h-48 object-cover">
-                            <source src="./video/inmo.mp4" type="video/mp4">
-                            Tu navegador no soporta la reproducción de videos.
-                        </video>
-                        <div class="p-4">
-                            <h4 class="text-xl font-semibold mb-2">InmoExpert</h4>
-                            <p class="text-primary mb-4">Página web de una inmobiliaria con formulario de contacto, fondo principal con movimieto y barra de navegación con scroll.</p>
-                            <ul class="list-disc list-inside text-primary">
-                                <li>Diseño responsivo, adaptable a cualquier dispositivo.</li>
-                                <li>Animaciones interactivas para una experiencia dinámica.</li>
-                                <li>Paleta de colores adpatada al sector inmobiliario.</li>
-                                <li>Fondo de movimiento.</li>
-                                <li>Formulario de contacto incorporado.</li>
-                                <li>Barra de navegación con scroll para mayor comodidad.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="Planes" class="container py-20 mx-auto">
-            <div class="card-container flex gap-6 justify-center flex-wrap">
-                <div
-                    class="bg-white rounded-xl shadow-lg p-6 flex-1 max-w-sm transform transition duration-500 hover:scale-105">
-                    <h2 class="text-3xl font-bold mb-2 text-blue-600">Página web estandar</h2>
-                    <p class="text-2xl font-semibold text-gray-600 mb-4">Desde<span
-                            class="text-sm font-normal"></span>/$650.000</p>
-                    <ul class="space-y-3 mb-6">
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Imágenes y videos </span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Una a dos páginas</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Botones directos de contacto</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Vínculo con redes sociales</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Diseño web adaptativo</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Multimedia optimizada para hacer mas rápida la web</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Información de contacto</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Hosting por 1 año</span>
-                        </li>
-                    </ul>
-                </div>
-                <div
-                    class="bg-white rounded-xl shadow-lg p-6 flex-1 max-w-sm transform transition duration-500 hover:scale-105">
-                    <h2 class="text-3xl font-bold mb-2 text-indigo-600">Sitio web media</h2>
-                    <p class="text-2xl font-semibold text-gray-600 mb-4">Desde/<span
-                            class="text-sm font-normal"></span>$900.000</p>
-                    <ul class="space-y-3 mb-6">
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Imágenes y videos</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Dos a tres páginas</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Botones de contacto con mensajes interactivos</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Vínculo con redes sociales</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Diseño web adaptativo</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Multimedia optimizada para hacer mas rápida la web</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Integración de google maps</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Información de contacto</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Secciones dinámicas de Información</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Implementación de SEO</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-black">Hosting por 1 año</span>
-                        </li>
-                    </ul>
-                </div>
-                <div
-                    class="bg-gradient-to-br from-purple-600 to-blue-600 rounded-xl shadow-lg p-6 flex-1 max-w-sm transform transition duration-500 hover:scale-105">
-                    <h2 class="text-3xl font-bold mb-2 text-white">Sitio web premium</h2>
-                    <p class="text-2xl font-semibold text-white-200 mb-4">Desde/<span
-                            class="text-sm font-normal"></span>$1.200.000</p>
-                    <ul class="space-y-3 mb-6 text-white">
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Imágenes y videos</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Tres a más páginas</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Botones de contacto con mensajes interactivos</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Vínculo con redes sociales</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Mantenimiento de sitio web(1 vez)</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Diseño web adaptativo</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Integración de modo oscuro</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Multimedia optimizada para hacer mas rápida la web</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Integración de google maps</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Secciones dinámicas de información</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Implementación de SEO</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Y más requisitos que requieras en tu web</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 mr-2 text-yellow-300" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            <span class="text-sm">Hosting premium por 1 año</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-
+        </div>
     </main>
 
-    <footer class="bg-dark py-8 mt-16">
-        <div class="container mx-auto flex justify-center space-x-6">
-            <a href="#" class="text-primary hover:text-white transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="feather feather-github">
-                    <path
-                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                    </path>
-                </svg>
-            </a>
-            <a href="#" class="text-primary hover:text-white transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="feather feather-linkedin">
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                    <rect x="2" y="9" width="4" height="12"></rect>
-                    <circle cx="4" cy="4" r="2"></circle>
-                </svg>
-            </a>
-            <a href="#" class="text-primary hover:text-white transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="feather feather-mail">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                </svg>
-            </a>
+    <!-- About Section -->
+    <section class="min-h-screen from-purple-900 via-purple-900 to-cyan-900 p-10" id="sobremi">
+        <div class="max-w-6xl mx-auto">
+            <!-- Encabezado Sobre Mí -->
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-white mb-4">Sobre Mí</h2>
+                <p class="text-purple-200 text-lg">✨ Transformando ideas en experiencias digitales ✨</p>
+            </div>
+
+            <!-- Contenido Principal -->
+            <div class="max-w-4xl mx-auto text-center px-4">
+                <h3 class="text-5xl font-bold text-white mb-6">
+                    Hola, soy
+                    <span class="block mt-2 text-white">Karol Natalia Rivera</span>
+                </h3>
+
+                <p class="text-purple-100 text-lg leading-relaxed mb-12">
+                    Un estudiante de Técnica de programación de software interesada en el desarrollo Front-End.
+                    Me enfoco en crear experiencias digitales atractivas y siempre me esfuerzo por ofrecer las mejores
+                    soluciones en cada proyecto.
+                </p>
+
+                <!-- Sección de Estadísticas -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Proyectos -->
+                    <div class="bg-purple-900/40 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+                        <div class="text-4xl font-bold text-white mb-2">11</div>
+                        <div class="text-purple-200">PROYECTOS TOTALES</div>
+                        <div class="text-purple-300 text-sm mt-2">Soluciones web innovadoras creadas</div>
+                    </div>
+
+                    <!-- Certificados -->
+                    <div class="bg-purple-900/40 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+                        <div class="text-4xl font-bold text-white mb-2">2</div>
+                        <div class="text-purple-200">CERTIFICADOS</div>
+                        <div class="text-purple-300 text-sm mt-2">Habilidades profesionales validadas</div>
+                    </div>
+
+                    <!-- Experiencia -->
+                    <div class="bg-purple-900/40 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+                        <div class="text-4xl font-bold text-white mb-2">3</div>
+                        <div class="text-purple-200">AÑOS DE EXPERIENCIA</div>
+                        <div class="text-purple-300 text-sm mt-2">Viaje de aprendizaje continuo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="p-10 fade-in">
+        <h3 class="text-3xl font-bold text-center mb-10">Servicios</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="card text-center">
+                <img src="./img/Animation - 1738077721712.gif" alt="Creación de Sitio Web" class="mx-auto mb-4">
+                <h4 class="text-xl font-bold">Creación de Sitio Web</h4>
+            </div>
+            <div class="card text-center">
+                <img src="./img/comercio.gif" alt="Comercio Electrónico" class="mx-auto mb-4">
+                <h4 class="text-xl font-bold">Comercio Electrónico</h4>
+            </div>
+            <div class="card text-center">
+                <img src="./img/flyer.gif" alt="Flyers Publicitarios" class="mx-auto mb-4">
+                <h4 class="text-xl font-bold">Flyers Publicitarios</h4>
+            </div>
+            <div class="card text-center">
+                <img src="./img/gmail.gif" alt="Correos Corporativos" class="mx-auto mb-4">
+                <h4 class="text-xl font-bold">Correos Corporativos</h4>
+            </div>
+            <div class="card text-center">
+                <img src="./img/social.gif" alt="Redes Sociales Profesionales" class="mx-auto mb-4">
+                <h4 class="text-xl font-bold">Redes Sociales Profesionales</h4>
+            </div>
+            <div class="card text-center">
+                <img src="./img/tarjeta.gif" alt="Tarjetas de Presentación" class="mx-auto mb-4">
+                <h4 class="text-xl font-bold">Tarjetas de Presentación</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-gray-900 rounded-lg" id="portafolio">
+        <h2 class="text-3xl font-bold text-center mb-12 text-white">Portafolio</h2>
+
+        <!-- Projects Grid -->
+        <div class="space-y-8">
+            <!-- Project 1 -->
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl transition-all hover:shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 p-6">
+                    <div class="order-2 lg:order-1 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-white mb-4">1. Plataforma Freelancers</h3>
+                        <p class="text-gray-300 mb-6">Base para contratación de freelancers en Colombia.</p>
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-semibold text-white">Tecnologías utilizadas:</h4>
+                            <div class="flex flex-wrap gap-3">
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">HTML5</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">CSS3</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">JavaScript</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">PHP</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">MySQL</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">Tailwind
+                                    CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-1 lg:order-2">
+                        <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+                            <video class="w-full h-full object-cover" autoplay loop muted playsinline>
+                                <source src="video/free.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl transition-all hover:shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 p-6">
+                    <div class="order-2 lg:order-1 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-white mb-4">2. Landing Page Eventos</h3>
+                        <p class="text-gray-300 mb-6">Promoción innovadora de eventos en línea.</p>
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-semibold text-white">Tecnologías utilizadas:</h4>
+                            <div class="flex flex-wrap gap-3">
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">HTML5</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">CSS3</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">JavaScript</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-1 lg:order-2">
+                        <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+                            <video class="w-full h-full object-cover" autoplay loop muted playsinline>
+                                <source src="video/1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl transition-all hover:shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 p-6">
+                    <div class="order-2 lg:order-1 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-white mb-4">3. Venta de Inmuebles</h3>
+                        <p class="text-gray-300 mb-6">Página para mostrar y vender propiedades.</p>
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-semibold text-white">Tecnologías utilizadas:</h4>
+                            <div class="flex flex-wrap gap-3">
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">HTML5</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">CSS3</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">JavaScript</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-1 lg:order-2">
+                        <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+                            <video class="w-full h-full object-cover" autoplay loop muted playsinline>
+                                <source src="video/inmo.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4-->
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl transition-all hover:shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 p-6">
+                    <div class="order-2 lg:order-1 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-white mb-4">4. E-commerce de Tecnología</h3>
+                        <p class="text-gray-300 mb-6">Venta de productos tecnológicos en linea hecho con Shopify.</p>
+                        <div class="space-y-4">
+                            <h4 class="text-lg font-semibold text-white">Tecnologías utilizadas:</h4>
+                            <div class="flex flex-wrap gap-3">
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">HTML5</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">CSS3</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">JavaScript</span>
+                                <span class="px-3 py-1 bg-gray-700 text-gray-200 rounded-full text-sm">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-1 lg:order-2">
+                        <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+                            <video class="w-full h-full object-cover" autoplay loop muted playsinline>
+                                <source src="video/come.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="p-10 fade-in">
+        <h3 class="text-3xl font-bold text-center mb-10">Tecnologías</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="tech-item">
+                <img src="./img/html-5.png" alt="HTML5" class="mx-auto w-16 h-16 mb-2">
+                <h4 class="text-lg font-semibold">HTML5</h4>
+            </div>
+            <div class="tech-item">
+                <img src="./img/css-3.png" alt="CSS3" class="mx-auto w-16 h-16 mb-2">
+                <h4 class="text-lg font-semibold">CSS3</h4>
+            </div>
+            <div class="tech-item">
+                <img src="./img/js.png" alt="JavaScript" class="mx-auto w-16 h-16 mb-2">
+                <h4 class="text-lg font-semibold">JavaScript</h4>
+            </div>
+            <div class="tech-item">
+                <img src="./img/tailwind.png" alt="Tailwind CSS" class="mx-auto w-16 h-16 mb-2">
+                <h4 class="text-lg font-semibold">Tailwind CSS</h4>
+            </div>
+            <div class="tech-item">
+                <img src="./img/pngwing.com(1)(1).png" alt="Bootstrap" class="mx-auto w-16 h-16 mb-2">
+                <h4 class="text-lg font-semibold">Bootstrap</h4>
+            </div>
+            <div class="tech-item">
+                <img src="./img/php.png" alt="PHP" class="mx-auto w-16 h-16 mb-2">
+                <h4 class="text-lg font-semibold">PHP</h4>
+            </div>
+            <div class="tech-item">
+                <img src="./img/mysql.png" alt="MySQL" class="mx-auto w-16 h-16 mb-2">
+                <h4 class="text-lg font-semibold">MySQL</h4>
+            </div>
+            <div class="tech-item">
+                <img src="./img/git.png" alt="Git" class="mx-auto w-16 h-16 mb-2">
+                <h4 class="text-lg font-semibold">Git</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-[#0f172a] py-20 px-6" id="contact">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Left Column - Contact Info -->
+                <div class="space-y-8">
+                    <div>
+                        <h2 class="text-4xl font-bold text-white mb-6">Ponte en contacto</h2>
+                        <p class="text-gray-400 text-lg max-w-md">
+                            Trabajemos juntos para dar vida a tus ideas. Contáctame para soluciones web innovadoras.
+                        </p>
+                    </div>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <svg class="w-6 h-6 text-purple-500 mt-1" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <div>
+                                <p class="text-white">Calle 22 b # 14 b 20</p>
+                                <p class="text-gray-400">Mosquera, Colombia</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-4">
+                            <svg class="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                            <p class="text-white">+57 316 600 1754</p>
+                        </div>
+
+                        <div class="flex items-center space-x-4">
+                            <svg class="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <p class="text-white">nataliarivera382@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Contact Form -->
+                <div class="bg-[#1e293b]/30 p-8 rounded-lg backdrop-blur-sm">
+                    <form class="space-y-6" action="https://formspree.io/f/mlddgyap" method="post">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="first_name" class="block text-sm font-medium text-gray-300 mb-2"><strong>Nombres</strong></label>
+                                <input type="text" id="first_name" name="first_name" required 
+                                    class="w-full px-4 py-3 bg-transparent border border-gray-700 rounded-lg text-white 
+                                    focus:bg-white focus:text-gray-900 focus:ring-2 focus:ring-purple-500 focus:border-transparent 
+                                    transition-all duration-300 placeholder-gray-500">
+                            </div>
+                            <div>
+                                <label for="last_name" class="block text-sm font-medium text-gray-300 mb-2"><strong>Apellidos</strong></label>
+                                <input type="text" id="last_name" name="last_name" required 
+                                    class="w-full px-4 py-3 bg-transparent border border-gray-700 rounded-lg text-white 
+                                    focus:bg-white focus:text-gray-900 focus:ring-2 focus:ring-purple-500 focus:border-transparent 
+                                    transition-all duration-300 placeholder-gray-500">
+                            </div>
+                        </div>
+                    
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-300 mb-2"><strong>Correo Electrónico</strong></label>
+                            <input type="email" id="email" name="email" required 
+                                class="w-full px-4 py-3 bg-transparent border border-gray-700 rounded-lg text-white 
+                                focus:bg-white focus:text-gray-900 focus:ring-2 focus:ring-purple-500 focus:border-transparent 
+                                transition-all duration-300 placeholder-gray-500">
+                        </div>
+                    
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-300 mb-2"><strong>Número de teléfono</strong></label>
+                            <input type="tel" id="phone" name="phone" required 
+                                class="w-full px-4 py-3 bg-transparent border border-gray-700 rounded-lg text-white 
+                                focus:bg-white focus:text-gray-900 focus:ring-2 focus:ring-purple-500 focus:border-transparent 
+                                transition-all duration-300 placeholder-gray-500">
+                        </div>
+                    
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-300 mb-2"><strong>Mensaje</strong></label>
+                            <textarea id="message" name="message" rows="4" required 
+                                class="w-full px-4 py-3 bg-transparent border border-gray-700 rounded-lg text-white 
+                                focus:bg-white focus:text-gray-900 focus:ring-2 focus:ring-purple-500 focus:border-transparent 
+                                transition-all duration-300 placeholder-gray-500"></textarea>
+                        </div>
+                    
+                        <button type="submit" class="w-full bg-purple-600 text-white py-3 px-6 rounded-lg hover:bg-purple-700 
+                            transition-colors font-medium">
+                            Enviar
+                        </button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Columna 1: Logo y descripción -->
+                <div class="space-y-4">
+                    <h3 class="text-2xl font-bold">Natalia Rivera</h3>
+                    <p class="text-gray-400">Creando soluciones digitales innovadoras y funcionales para impulsar tu
+                        presencia en línea.</p>
+                </div>
+
+                <!-- Columna 2: Enlaces rápidos -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Enlaces rápidos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-purple-400 transition-colors">Inicio</a>
+                        </li>
+                        <li><a href="#about" class="text-gray-400 hover:text-purple-400 transition-colors">Sobre mí</a>
+                        </li>
+                        <li><a href="#services"
+                                class="text-gray-400 hover:text-purple-400 transition-colors">Servicios</a></li>
+                        <li><a href="#portfolio"
+                                class="text-gray-400 hover:text-purple-400 transition-colors">Portafolio</a></li>
+                        <li><a href="#contact"
+                                class="text-gray-400 hover:text-purple-400 transition-colors">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3: Redes sociales y contacto -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Conecta conmigo</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                    <p class="text-gray-400">Email: nataliarivera382@gmail.com</p>
+                    <p class="text-gray-400">Teléfono: +57 316 600 1754</p>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-700 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2025 Natalia Rivera. Todos los derechos reservados.</p>
+            </div>
         </div>
     </footer>
-    <script>
-        function toggleDetails() {
-            const details = document.getElementById("project-details");
-            details.classList.toggle("show"); // Alterna la clase 'show'
-        }
-
-
-    </script>
-    <script src="./js/movile.js"></script>
-    <script src="./js/script.js"></script>
-    <script src="./js/texto.js"></script>
 </body>
 
 </html>
